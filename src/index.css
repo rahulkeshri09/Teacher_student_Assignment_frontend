@@ -1,13 +1,153 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.chose-login-signup-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 40px;
+}
+.chose-login-signup-container div{
+    background-color: rgb(95, 189, 158);
+    color: beige;
+    font-size: 25px;
+    font-weight: bolder;
+    font-family: sans-serif;
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.chose-login-signup-container div:hover{
+    opacity: 0.6;
+}
+.back{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:10px;
+    background-color:red;
+    color:white;
+    font-size:30px;
+    cursor:pointer;
+    border-radius: 20px;
+}
+.back:hover{
+    opacity: 0.6;
+}
+.form-container form{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+}
+.form-container input{
+    height: 40px;
+    margin: 5px;
+    outline: none;
+}
+.form-container button{
+    height: 40px;
+    width: 100px;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    background-color: burlywood;
+    cursor: pointer;
+    border: none;
+}
+.form-container button:hover{
+    opacity: 0.6;
+}
+.profile-container{
+    position: relative;
+    height: 100vh;
+    width:30%;
+    background-color:plum;
+    display: flex;
+    flex-direction: column;
+}
+.user-detail-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+.user-detail-container div{
+    height: 50px;
+    width:70%;
+    border: 1px solid chocolate;
+    border-radius: 10px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.edit-user-details-btn{
+    font-size: 20px;
+    background-color: royalblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.edit-user-details-btn:hover{
+    opacity: 0.8;
+}
+.user-profile-heading{
+    font-family: sans-serif;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 0px;
+}
+.edit-detail-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+}
+.edit-detail-container div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+}
+.edit-detail-container input{
+    height: 25px;
+    width:200px;
+    margin: 5px;
+    outline: none;
+    border-radius: 5px;
+}
+.edit-detail-container button{
+    height: 40px;
+    background-color: royalblue;
+    width: 200px;
+    margin: auto;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.edit-detail-container button:hover{
+    opacity: 0.9;
+}
+.logout-btn{
+    height: 50px;
+    width: 100px;
+    background-color: indigo;
+    color: lavender;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-left:auto ;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.logout-btn:hover{
+    background-color:slateblue;
 }
